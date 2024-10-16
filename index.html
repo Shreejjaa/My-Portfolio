@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Personal Portfolio Website - Easy Tutorials</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/YOUR_KIT_CODE.js" crossorigin="anonymous"></script> <!-- Replace with your Font Awesome Kit code -->
+</head>
+<body>
+    <!-- Header Section -->
+    <div id="header">
+        <!-- Navigation Bar -->
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo" alt="Logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!-- Header Text -->
+        <div class="header-text">
+            <p>Hi, I'm</p>
+            <h1>Shreeja Sarkar<br><span>Web Developer</span></h1>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <!-- Left Column: Image -->
+                <div class="about-col1">
+                    <img src="images/user.png" alt="User">
+                </div>
+                <!-- Right Column: About Me Text -->
+                <div class="about-col2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>Hello! I’m Shreeja Sarkar, a passionate web developer dedicated to creating seamless and engaging user experiences. With a keen eye for design and a solid foundation in coding, I strive to combine functionality with aesthetics in every project I undertake. I thrive on solving complex problems and continually seek to expand my knowledge in the ever-evolving field of technology. My commitment to excellence drives me to deliver high-quality solutions that meet the needs of users and clients alike. I look forward to bringing your ideas to life!</p>
+                    
+                    <!-- Tab Titles -->
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+                        <p class="tab-links" onclick="openTab('education')">Education</p>
+                    </div>
+
+                    <!-- Tab Contents -->
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX:</span> Responsive website design and app design</li>
+                            <li><span>Front-end Development:</span> HTML, CSS, JavaScript</li>
+                            <li><span>Back-end Development:</span> Java, Python, SQL</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Class 10:</span> Central Modern School(Baranagar) (2018-19)</li>
+                            <li><span>Class 12:</span> Central Model School(Barrackpore) (2020-21)</li>
+                            <li><span>College:</span> St. Thomas' College of Engineering and Technology (2021-2025)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services Section -->
+    <div id="services">
+        <div class="container">
+            <h1 class="subtitle">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Creating responsive and functional websites.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fas fa-crop"></i>
+                    <h2>Graphic Design</h2>
+                    <p>Designing eye-catching graphics and layouts.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fas fa-app"></i>
+                    <h2>App Development</h2>
+                    <p>Developing user-friendly mobile applications.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Section -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">My Work</h1>
+            <div class="worklist">
+                <div class="work">
+                    <img src="images/work-1.png" alt="Work 1">
+                    <div class="layer">
+                        <h3>TIC-TAC-TOE</h3>
+                        <p>The Tic-Tac-Toe Game is a two-player console-based game developed in Java, where players take turns placing their symbols (X or O) on a 3x3 grid to form a straight line.</p>
+                        <a href="https://github.com/Shreejjaa/TICTACTOE"><i class="btn"></i>View on github</a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" alt="Work 2">
+                    <div class="layer">
+                        <h3>Draw-it</h3>
+                        <p>The "Draw It" feature allows users to customize clothing items by sketching their designs directly on the product images. This interactive tool enhances user engagement and personalization in the shopping experience.</p>
+                        <a href="https://github.com/Shreejjaa/Draw-It"><i class="btn"></i>View on github</a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" alt="Work 3">
+                    <div class="layer">
+                        <h3>Myntra App Design with unique features</h3>
+                        <p>The "Draw It" and "Style It" features for Myntra enhance user engagement by allowing creative customization of products. Draw It lets users sketch on product images, while Style It enables real-time styling options with color and accessory previews. Designed in Figma, these features prioritize a user-friendly experience, empowering customers to express their creativity while shopping.</p>
+                        <a href="#"><i class="btn"></i>View on Behance</a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <!-- Left Column: Contact Information -->
+                <div class="contact-left">
+                    <h1 class="subtitle">Contact Me</h1>
+                    <p><i class="fas fa-envelope"></i> shreeja0730@gmail.com</p>
+                    <p><i class="fas fa-phone"></i> +91 7439309067</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/yourprofile" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://twitter.com/yourprofile" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://linkedin.com/in/yourprofile" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                    <a href="images/mycv.pdf" class="btn btn2" download>Download CV</a>
+                </div>
+                <!-- Right Column: Contact Form -->
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Copyright Section -->
+    <div class="copyright">
+        <p>© 2024 Shreeja Sarkar. All Rights Reserved. <i class="fas fa-heart"></i></p>
+    </div>
+
+    <!-- JavaScript for Tab functionality -->
+    <script>
+        var tabLinks = document.getElementsByClassName("tab-links");
+        var tabContents = document.getElementsByClassName("tab-contents");
+
+        function openTab(tabName) {
+            for (tabLink of tabLinks) {
+                tabLink.classList.remove("active-link");
+            }
+            for (tabContent of tabContents) {
+                tabContent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabName).classList.add("active-tab");
+        }
+    </script>
+</body>
+</html>
